@@ -7,5 +7,5 @@ int main() {
     srand(time(0));
     x = rand() % 10;
 
-    
+    if (x==5) {
 }
