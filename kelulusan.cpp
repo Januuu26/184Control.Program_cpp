@@ -18,3 +18,17 @@ using namespace std;
             return "Gagal";
     }
     
+    int main() {
+         float nilBI, nilMT, rerata; 
+        string status;
+
+        cout<<"Masukkan nilai Bahasa Inggris = ";
+        cin>>nilBI;
+        cout<<"Masukkan nilai Matematika = ";
+        cin>>nilMT;
+
+        rerata = Rata_rata(nilBI, nilMT);
+        
+        cout << "Status kelulusan = "<< Status_lulus(rerata)<<" ,dengan nilai rerata: "<< rerata << endl;
+
+    }
