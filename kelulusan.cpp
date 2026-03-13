@@ -5,7 +5,7 @@ using namespace std;
         return (a+b)/2;
     }
     
-    string Status_lulus(float r){
+       string Status_lulus(float r){
         if (r>=60)
             if(r>=80){
             return "Lulus Cumlaude";
