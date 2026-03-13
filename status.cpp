@@ -17,4 +17,13 @@ using namespace std;
          float nilBI, nilMT, rata_rata; 
         string status;
 
+        cout<<"Masukkan nilai Bahasa Inggris = ";
+        cin>>nilBI;
+        cout<<"Masukkan nilai Matematika = ";
+        cin>>nilMT;
+
+        rata_rata = Rata_rata(nilBI, nilMT);
         
+        cout << "Status kelulusan = "<< Status_lulus(rata_rata)<<" ,dengan rata-rata: "<< rata_rata << endl;
+
+    }
