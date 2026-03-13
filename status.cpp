@@ -14,7 +14,7 @@ using namespace std;
     }
 
     int main() {
-         float nilBI, nilMT, rata_rata; 
+         float nilBI, nilMT, rerata; 
         string status;
 
         cout<<"Masukkan nilai Bahasa Inggris = ";
@@ -22,8 +22,15 @@ using namespace std;
         cout<<"Masukkan nilai Matematika = ";
         cin>>nilMT;
 
-        rata_rata = Rata_rata(nilBI, nilMT);
+        //rerata = (nilBI + nilMT) / 2;
+        //if (rerata >= 60)
+        //    status = "Selamat Anda Lulus";
+        //else
+        //    status = "Maaf Anda Tidak Lulus";
+
+        rerata = Rata_rata(nilBI, nilMT);
+        //status = Status_lulus(rerata);
         
-        cout << "Status kelulusan = "<< Status_lulus(rata_rata)<<" ,dengan rata-rata: "<< rata_rata << endl;
+        cout << "Status kelulusan = "<< Status_lulus(rerata)<<" ,dengan nilai rerata: "<< rerata << endl;
 
     }
